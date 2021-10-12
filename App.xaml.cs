@@ -107,7 +107,7 @@ namespace Rich_Text_Editor
             // The number of files received is args.Files.Size
             // The name of the first file is args.Files[0].Name
             var rootFrame = new Frame();
-            rootFrame.Navigate(typeof(MainPage), args);
+            rootFrame.Navigate(typeof(DocumentPage), args);
             Window.Current.Content = rootFrame;
             Window.Current.Activate();
         }
